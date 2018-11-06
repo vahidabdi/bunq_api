@@ -40,7 +40,8 @@ defmodule BunqApi.MixProject do
       {:postgrex, ">= 0.0.0-rc"},
       {:gettext, "~> 0.11"},
       {:jason, "~> 1.0"},
-      {:plug_cowboy, "~> 2.0"}
+      {:plug_cowboy, "~> 2.0"},
+      {:credo, "~> 0.10.2", only: [:dev, :test], runtime: false}
     ]
   end
 
